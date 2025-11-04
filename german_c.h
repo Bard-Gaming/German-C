@@ -87,8 +87,10 @@
      * wie Haskell, aber da Funktionen oftmals mehr
      * machen als nur einen Ergebnis erzeugen, finde
      * ich "liefere" schon etwas besser.
+     * "liefer" klingt natürlicher als das steife "liefere",
+     * also why not.
      */
-    #define liefere return
+    #define liefer return
 
     // --------------- Primitive Types --------------- :
     /**
