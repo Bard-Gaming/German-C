@@ -7,6 +7,7 @@
 */
 
 #include <german_c.h>
+#include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
 
@@ -67,5 +68,6 @@ ganz haupteinstieg(leer)
         token = mein_zeichenkettentoken(nichts, " ");
     }
 
+    free(text);
     liefer 0;
 }
