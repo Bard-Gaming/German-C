@@ -205,7 +205,7 @@
     /**
      * selbstbeschreibend
      */
-    #define union union
+    #define vereinigung union
 
     // --------------- Language Macros --------------- :
     /**
@@ -250,4 +250,50 @@
      */
     #define haupteinstieg main
 
+    // ---------------- LibC Macros ---------------- :
+    
+    /**
+     * Weil "malloc" bedeutet "memory allocation"
+     */
+    #define speicherreservierung malloc
+
+    /**
+     * selbstbeschreibend
+     */
+    #define freigeben free
+    
+    /**
+     * selbstbeschreibend
+     */
+    #define druckenf printf
+    #define fdruckenf fprintf
+    #define ddruckenf dprintf
+    /**
+     * k für Kette
+     */
+    #define kdruckenf sprintf
+    #define kndruckenf snprintf
+    #define vdruckenf vprintf
+    #define vfdruckenf vfprintf
+    #define vddruckenf vdprintf
+    #define vkdruckenf vsprintf
+    #define vkndruckenf vsnprintf
+
+    #define kettedoppeln strdup
+    
+    // ---------------- Operators ---------------- :
+    #define oder ||
+    #define und &&
+    #define nicht !
+    #define minus -
+    #define plus +
+    #define mal *
+    #define durch /
+    /**
+     * a = b -> a bekommt b
+     */
+    #define bekommt =
+    #define wert ==
+    #define unterscheidet !=
+    
 #endif
